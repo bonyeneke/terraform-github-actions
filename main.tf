@@ -12,7 +12,6 @@ terraform {
     storage_account_name = "tyuyuamopstf"
     container_name       = "tfstatedevops"
     key                  = "terraform.tfstate"
-    use_oidc             = true
   }
 }
 
