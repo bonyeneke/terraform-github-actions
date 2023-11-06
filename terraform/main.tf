@@ -8,8 +8,8 @@ terraform {
 
   # Update this block with the location of your terraform state file
   backend "azurerm" {
-    resource_group_name  = "tamopstfstates"
-    storage_account_name = "tyuyuamopstf"
+    resource_group_name  = "cgi-demo"
+    storage_account_name = "storagebrnacct"
     container_name       = "tfstatedevops"
     key                  = "terraform.tfstate"
   }
